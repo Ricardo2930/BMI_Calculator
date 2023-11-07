@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="./stylus.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <h2>BMI Calculator</h2>
+
+      <section class="container-inputs">
+        <article class="height">
+          <h4 class="height-title">Height (cm)</h4>
+          <input type="text" class="height-input-value" />
+        </article>
+
+        <article class="weight">
+          <h4 class="weight-title">Weight (kg)</h4>
+          <input type="text" class="weight-input-value" />
+        </article>
+
+        <button type="submit" class="btn-calculate">
+          <i class="fa-solid fa-person"></i> Calculate BMI
+        </button>
+      </section>
+
+      <section class="results">
+        <h4 class="resulst-title">Your BMI is</h4>
+        <input type="text" class="results-value" />
+        <p class="results-status"></p>
+      </section>
+    </main>
+  </body>
+  <script src="./app.js"></script>
+</html>

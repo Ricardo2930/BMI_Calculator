@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #05c069;
+  font-family: "poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 100px white;
+}
+
+h2 {
+  color: #05c069;
+}
+
+.container-inputs {
+  display: grid;
+  gap: 15px;
+  margin: 15px 0px 10px 0px;
+}
+
+.height,
+.weight {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px lightgray;
+}
+
+.height-input-value,
+.weight-input-value {
+  appearance: none;
+  border: none;
+  outline: none;
+  /* background: none; */
+  border-bottom: 1px solid lightgray;
+  height: 35px;
+  font-size: 15px;
+  color: gray;
+  color: SL;
+}
+
+button {
+  background-color: #05c069;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  outline: none;
+}
+
+.results {
+  display: none;
+}
+
+.results-value {
+  color: #05c069;
+  font-size: 20px;
+  font-weight: bold;
+  appearance: none;
+  border: none;
+  outline: none;
+  box-shadow: 1px 1px 10px lightgray;
+  max-width: 40%;
+  text-align: center;
+  border-radius: 10px;
+  height: 45px;
+  margin: 10px 0px;
+}
+
+.results-status {
+  font-weight: bold;
+}
